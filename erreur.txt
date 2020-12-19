@@ -1,0 +1,13 @@
+Pivot 2015
+
+Itératif :
+    condition while - /!\ and ou or 
+                    - flag et l'incrément 
+    découpage d'une liste ou d'un str s autour de l'élément d'indice i - s[:i] + s[i] + s[i+1:]
+    sum ([]) = 0
+
+
+Récursif :
+    cas de base:
+        tous les élém ont été parcourus (/!\ oublié)
+        pivot trouvé
