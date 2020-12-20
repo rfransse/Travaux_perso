@@ -51,7 +51,7 @@ def Execute(ensembleDEtats, m, nbreDEtapes):
 
         #return res
 
-    for etape in range(nbreDEtapes):
+    for etapes in range(nbreDEtapes):
         for case in [(i,j) for i in range(1, m+1) for j in range(1, m+1)]:
             if case in ensembleDEtats:
                 if nbreVivant(case, ensembleDEtats) not in {2, 3}:
