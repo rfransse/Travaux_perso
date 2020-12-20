@@ -64,8 +64,6 @@ def Execute(ensembleDEtats, m, nbreDEtapes):
         for j in range(1, m+1):
             if (i,j) in ensembleDEtats:
                 print("V", end=" ")
-
-
             else:
                 print("M", end=" ")
         print()
@@ -75,5 +73,5 @@ def Execute(ensembleDEtats, m, nbreDEtapes):
 
 m = 3
 nbreDEtapes = 2
-Execute(Init(m), m, 2)
+Execute(Init(m), m, nbreDEtapes)
 
